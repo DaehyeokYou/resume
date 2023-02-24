@@ -2,6 +2,7 @@
 
 - 2023.02.24:Forked from uyu423/resume-nextjs <small>(요우님 감사합니다.)</small>
 - 2021.02.24: Certificate(자격증) Payload 추가 
+- 2021.02.24: Side Project Payload 추가 
 
 ## Introduce
 
