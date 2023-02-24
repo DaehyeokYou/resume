@@ -7,7 +7,7 @@ import project from './project';
 import presentation from './presentation';
 import education from './education';
 import article from './article';
-import certificate from './certificate'
+import certificate from './certificate';
 import etc from './etc';
 import footer from './footer';
 
