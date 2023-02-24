@@ -1,76 +1,78 @@
 import { ISkill } from '../component/skill/ISkill';
 
-const backend: ISkill.Skill = {
-  category: 'Back-end',
+const DevAA: ISkill.Skill = {
+  category: 'Dev/AA',
   items: [
-    {
-      title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
-    },
     {
       title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
-    },
-  ],
-};
-
-const database: ISkill.Skill = {
-  category: 'Database',
-  items: [
-    {
-      title: 'MySQL',
       level: 3,
     },
     {
-      title: 'Oracle',
+      title: 'C#',
+      level: 3,
+    },
+    {
+      title: 'Spring',
       level: 2,
+    },
+    {
+      title: 'Kafka',
     },
     {
       title: 'Redis',
-      level: 2,
-    },
-    {
-      title: 'MongoDB',
-      level: 1,
-    },
+    }
   ],
 };
 
-const frontend: ISkill.Skill = {
-  category: 'Front-end',
+const SRE: ISkill.Skill = {
+  category: 'SRE',
   items: [
     {
-      title: 'Next.js',
+      title: 'DevOps',
+      level: 3,
+    },
+    {
+      title: 'Logging/Monitoring',
       level: 2,
     },
     {
-      title: 'React.js',
+      title: 'IaC',
+      level: 2,
+    }
+  ],
+};
+
+const SATA: ISkill.Skill = {
+  category: 'SA/TA',
+  items: [
+    {
+      title: 'Azure',
+      level: 3,
+    },
+    {
+      title: 'LandingZone',
+      level: 3,
+    },
+    {
+      title: 'Migration/Modernization',
+      level: 3,
+    },
+    {
+      title: 'Kubernetes',
       level: 2,
     },
     {
-      title: 'javascript',
+      title: 'Docker',
       level: 2,
     },
     {
-      title: 'HTML/CSS',
+      title: 'MSA',
       level: 2,
     },
+    {
+      title: 'AWS',
+      level: 1,
+    }
   ],
 };
 
@@ -78,13 +80,7 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Ubuntu',
-    },
-    {
-      title: 'Vim',
-    },
-    {
-      title: 'Security',
+      title: 'Linux',
     },
     {
       title: 'VS Code',
@@ -100,7 +96,7 @@ const etc: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [DevAA, SRE, SATA, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 
