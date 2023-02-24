@@ -46,7 +46,7 @@ const experience: IExperience.Payload = {
       startedAt: '2016-01',
       endedAt: '2016-02',
       descriptions: [
-        '롯데 신규 서비스 기획 및 개발 (장바구니 데이터를 활용한 O2O 서비스 기획 및 개발)'
+        '롯데 신규 서비스 기획 및 개발 (장바구니 데이터를 활용한 O2O 서비스 기획 및 개발)',
       ],
       skillKeywords: ['Java', 'Cordova', 'Android', 'GPS'],
     },

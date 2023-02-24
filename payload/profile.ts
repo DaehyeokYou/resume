@@ -4,7 +4,6 @@ import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/photo.jpeg';
 import { IProfile } from '../component/profile/IProfile';
-import { NONAME } from 'dns';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -30,7 +29,7 @@ const profile: IProfile.Payload = {
       title: 'https://github.com/DaehyeokYou',
       link: 'https://github.com/DaehyeokYou',
       icon: faGithub,
-    }
+    },
   ],
   notice: {
     title: '반갑습니다! IT Generalist 유대혁입니다. 잘 부탁드립니다!',

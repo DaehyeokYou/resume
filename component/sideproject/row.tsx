@@ -6,7 +6,9 @@ import { IRow } from '../common/IRow';
 import Util from '../common/Util';
 import { EmptyRowCol } from '../common';
 
-export default function SideprojectRow({ payload }: PropsWithChildren<{ payload: ISideproject.Payload }>) {
+export default function SideprojectRow({
+  payload,
+}: PropsWithChildren<{ payload: ISideproject.Payload }>) {
   return (
     <EmptyRowCol>
       {payload.list.map((item, index) => {
