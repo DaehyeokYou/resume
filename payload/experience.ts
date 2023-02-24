@@ -5,27 +5,27 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
-      title: 'Foo Company',
-      position: 'Node.js Developer',
-      startedAt: '2018-02',
+      title: 'SK(주)',
+      position: 'Technical Architecture & Developer',
+      startedAt: '2020-01',
       descriptions: [
-        'OTA Service Provider',
-        'Data modeling and Mashup API development',
-        'Systems Engineering and DevOps',
+        'SK에서 과장으로 근무하였고,',
+        '이러 이러한 업무와 프로젝트 참여해서',
+        '저러 저러한 일을 했다'
       ],
-      skillKeywords: ['Node.js', 'TypeScript', 'Express.js', 'Mashup API', 'AWS'],
+      skillKeywords: ['Microsoft Azure', 'MSA', 'CI/CD', 'Spring Boot', 'JPA', 'MyBatis', 'kafka', 'Redis', 'AWS'],
     },
     {
-      title: 'Bar Co., Ltd.',
-      position: 'Software Engineer',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
+      title: '롯데정보통신(주)',
+      position: 'Application Architecture & Backend Developer',
+      startedAt: '2016-08',
+      endedAt: '2019-12',
       descriptions: [
-        'Online Commerce IT Startup',
-        'Development of reservation system and service worker',
-        'AWS infrastructure and RDBMS maintenance and development',
+        '롯데정보통신에서 사원으로 근무하였고,',
+        '이러 이러한 업무와 프로젝트 참여해서',
+        '저러 저러한 일을 했다'
       ],
-      skillKeywords: ['Node.js', 'MySQL', 'AWS'],
+      skillKeywords: ['Java', 'C#', 'MSSQL', 'AWS', 'Socket', 'Fixed Length'],
     },
   ],
 };
