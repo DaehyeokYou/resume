@@ -6,15 +6,15 @@ const education: IEducation.Payload = {
   list: [
     {
       title: 'Foo University',
-      subTitle: 'Bar Major Bachelor',
-      startedAt: '2010-03',
-      // endedAt: '2010-02',
+      subTitle: '컴퓨터정보통신공학 학사 졸업, 전공 평점: 4.25/4.5',
+      startedAt: '2009-03',
+      endedAt: '2015-08',
     },
     {
-      title: 'Foo High School',
-      subTitle: 'Graduated',
-      startedAt: '2007-03',
-      endedAt: '2010-02',
+      title: '명륜 고등학교',
+      subTitle: '이과 졸업 (강원도 강릉시)',
+      startedAt: '2006-03',
+      endedAt: '2009-02',
     },
   ],
 };
