@@ -1,7 +1,9 @@
-## Introduce
+## My History
 
 - 2023.02.24:Forked from uyu423/resume-nextjs <small>(요우님 감사합니다.)</small>
 - 2021.02.24: Certificate(자격증) Payload 추가 
+
+## Introduce
 
 - 누구나 예쁜 웹 이력서를 쉽게 만들 수 있어 <small>(약간의 코딩으로..)</small>
 - Next.js, Bootstrap CSS 가 사용되었다.
