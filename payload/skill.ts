@@ -20,7 +20,7 @@ const DevAA: ISkill.Skill = {
     },
     {
       title: 'Redis',
-    }
+    },
   ],
 };
 
@@ -38,7 +38,7 @@ const SRE: ISkill.Skill = {
     {
       title: 'IaC',
       level: 2,
-    }
+    },
   ],
 };
 
@@ -72,7 +72,7 @@ const SATA: ISkill.Skill = {
     {
       title: 'AWS',
       level: 1,
-    }
+    },
   ],
 };
 

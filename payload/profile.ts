@@ -1,7 +1,8 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/photo.jpeg';
+// import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -28,10 +29,10 @@ const profile: IProfile.Payload = {
       title: 'https://github.com',
       link: 'https://github.com/DaehyeokYou',
       icon: faGithub,
-    }
+    },
   ],
   notice: {
-    title: "반갑습니다! 개발자 유대혁입니다. 잘 부탁드립니다!",
+    title: '반갑습니다! 개발자 유대혁입니다. 잘 부탁드립니다!',
     icon: faBell,
   },
 };

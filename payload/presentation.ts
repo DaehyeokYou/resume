@@ -20,7 +20,8 @@ const presentation: IPresentation.Payload = {
         },
         {
           content: '행사링크',
-          postHref: 'https://app.livestorm.co/sharedit-1/live-73-microsoft-azure-immersion-workshop-azure',
+          postHref:
+            'https://app.livestorm.co/sharedit-1/live-73-microsoft-azure-immersion-workshop-azure',
         },
       ],
     },

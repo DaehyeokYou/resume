@@ -11,9 +11,19 @@ const experience: IExperience.Payload = {
       descriptions: [
         'SK에서 과장으로 근무하였고,',
         '이러 이러한 업무와 프로젝트 참여해서',
-        '저러 저러한 일을 했다'
+        '저러 저러한 일을 했다',
       ],
-      skillKeywords: ['Microsoft Azure', 'MSA', 'CI/CD', 'Spring Boot', 'JPA', 'MyBatis', 'kafka', 'Redis', 'AWS'],
+      skillKeywords: [
+        'Microsoft Azure',
+        'MSA',
+        'CI/CD',
+        'Spring Boot',
+        'JPA',
+        'MyBatis',
+        'kafka',
+        'Redis',
+        'AWS',
+      ],
     },
     {
       title: '롯데정보통신(주)',
@@ -23,7 +33,7 @@ const experience: IExperience.Payload = {
       descriptions: [
         '롯데정보통신에서 사원으로 근무하였고,',
         '이러 이러한 업무와 프로젝트 참여해서',
-        '저러 저러한 일을 했다'
+        '저러 저러한 일을 했다',
       ],
       skillKeywords: ['Java', 'C#', 'MSSQL', 'AWS', 'Socket', 'Fixed Length'],
     },
