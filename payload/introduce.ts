@@ -5,7 +5,7 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    '저는 Generalist IT인입니다. (Dev + Architecture)',
+    '저는 IT Generalist입니다. (Dev + Architecture + SRE + ~~~)',
     '시스템 설계/구축(Network, 보안, Storage등)부터 웹/앱 서비스 백엔드 개발까지 IT 시스템의 End-to-End 설계/개발 경험이 있습니다. Cloud Infra 설계/구축에 대한 역량을 Landing Zone 설계/구축 및 Onprem To Cloud Migration 경험으로 쌓고 , Backend 개발 역량은 C#, Java(Spring Boot) 등을 사용하여 프로덕션 서비스를 운영/개발한 경험으로 쌓았습니다. ',
     '',
     '저는 우수 회사원입니다.',

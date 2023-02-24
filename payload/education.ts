@@ -5,7 +5,7 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: '강원대학교',
+      title: '강원 대학교',
       subTitle: '컴퓨터정보통신공학 학사 졸업, 전공 평점: 4.25/4.5',
       startedAt: '2009-03',
       endedAt: '2015-08',
