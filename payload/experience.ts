@@ -6,12 +6,13 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: 'SK(주)',
-      position: 'Technical Architecture & Developer',
+      position: '과장, Technical Architecture & Developer',
       startedAt: '2020-01',
       descriptions: [
-        'SK에서 과장으로 근무하였고,',
-        '이러 이러한 업무와 프로젝트 참여해서',
-        '저러 저러한 일을 했다',
+        'SK렌터카 차세대 시스템 Backend 개발',
+        'SK렌터카 차세대 Azure Cloud 환경 설계/구축',
+        'SK네트웍스 계열 OnPrem to Cloud Migration (20여개 시스템)',
+        'MSA구조에서 3대 CSP K8s(EKS, AKS, GKE)의 Logging/Monitoring 표준 설계 및 구축',
       ],
       skillKeywords: [
         'Microsoft Azure',
@@ -23,19 +24,21 @@ const experience: IExperience.Payload = {
         'kafka',
         'Redis',
         'AWS',
+        'EFK',
+        'Dynatrace',
       ],
     },
     {
       title: '롯데정보통신(주)',
-      position: 'Application Architecture & Backend Developer',
+      position: '사원, Application Architecture & Backend Developer',
       startedAt: '2016-08',
       endedAt: '2019-12',
       descriptions: [
-        '롯데정보통신에서 사원으로 근무하였고,',
-        '이러 이러한 업무와 프로젝트 참여해서',
-        '저러 저러한 일을 했다',
+        '롯데백화점 결제 파트 Backend 개발/운영',
+        '결제 시스템 공통 Module 설계/개발',
+        '데이터 통합 시스템 개발/운영',
       ],
-      skillKeywords: ['Java', 'C#', 'MSSQL', 'AWS', 'Socket', 'Fixed Length'],
+      skillKeywords: ['Java', 'C#', 'MSSQL', 'AWS', 'Socket', 'Fixed Length'],
     },
   ],
 };
