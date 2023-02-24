@@ -5,16 +5,22 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: 'Lorem ipsum',
-      subTitle: 'consectetur adipiscing elit',
-      at: '2017-10',
+      title: '엔터프라이즈 환경에서의 Azure 집중 탐구',
+      subTitle: 'Microsoft Azure Immersion Workshop',
+      at: '2021-09',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content: 'Azure DevOps Adoption for Enterprise',
         },
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net//',
+          content: 'Public한 Azure DevOps를 Enterprise 환경에서 사용하기 위한 Private 전략',
+        },
+        {
+          content: 'Enterprise에서 다양한 환경에 대한 CD 전략',
+        },
+        {
+          content: '행사링크',
+          postHref: 'https://app.livestorm.co/sharedit-1/live-73-microsoft-azure-immersion-workshop-azure',
         },
       ],
     },
