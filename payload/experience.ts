@@ -38,7 +38,7 @@ const experience: IExperience.Payload = {
         '결제 시스템 공통 Module 설계/개발',
         '데이터 통합 시스템 개발/운영',
       ],
-      skillKeywords: ['Java', 'C#', 'MSSQL', 'AWS', 'Socket', 'Fixed Length'],
+      skillKeywords: ['Java', 'C#', 'MSSQL', 'Socket', '전문 통신'],
     },
   ],
 };

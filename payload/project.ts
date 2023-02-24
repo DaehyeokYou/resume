@@ -118,8 +118,8 @@ const project: IProject.Payload = {
     },
     {
       title: '롯데백화점 직승인',
-      startedAt: '2018-12',
-      endedAt: '2019-04',
+      startedAt: '2018-07',
+      endedAt: '2019-03',
       where:
         '롯데정보통신(주), 롯데백화점 신용카드 결제 시, VAN사를 통하지 않고 카드사와 직접 통신하여 VAN 수수료 절감',
       descriptions: [
