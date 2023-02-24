@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import image from '../asset/photo.jpeg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '유대혁',
+    small: '(대혁)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'ydh4085@gmail.com',
       link: '#',
       icon: faEnvelope,
     },
@@ -26,22 +26,12 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/DaehyeokYou',
       icon: faGithub,
-    },
-    {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
-    },
-    {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
-    },
+    }
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: "반갑습니다! 개발자 유대혁입니다. 잘 부탁드립니다!",
     icon: faBell,
   },
 };
