@@ -26,6 +26,17 @@ const project: IProject.Payload = {
             { content: '차세대 MSA CQRS Pattern을 위한 Read Only DB 동기화 구현' },
           ],
         },
+        {
+          content:
+            'Wave1 참고 사이트',
+          weight: 'MEDIUM',
+          descriptions: [
+            { 
+              content: 'https://homepage.skcarrental.com/',
+              href: 'https://homepage.skcarrental.com/',
+            },
+          ],
+        },
       ],
     },
     {
@@ -49,6 +60,32 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: 'Azure Cloud 환경의 Redis를 활용하여 Session 관리 기능 개발 ' },
+          ],
+        },
+        {
+          content:
+            'SmartCare 참고 Store ',
+          weight: 'MEDIUM',
+          descriptions: [
+            { 
+              content: '안드로이드 Play Store SmartCare',
+              href: 'https://play.google.com/store/apps/details?id=com.smartcare.android&hl=ko&gl=US&pli=1',
+            },
+            { 
+              content: '아이폰 App Store SmartCare',
+              href: 'https://apps.apple.com/kr/app/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BC%80%EC%96%B4-sk%EB%A0%8C%ED%84%B0%EC%B9%B4-%EC%B0%A8%EB%9F%89%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B9%84%EC%8A%A4/id1515841739',
+            },
+          ],
+        },
+        {
+          content:
+            'EV Link 참고 기사',
+          weight: 'MEDIUM',
+          descriptions: [
+            { 
+              content: '전자신문 etnews 기사',
+              href: 'https://www.etnews.com/20220915000021',
+            },
           ],
         },
       ],
@@ -82,18 +119,10 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '통합 AKS Cluster 환경 구성(Private AKS) ' },
-            {
-              content:
-                '개발 환경을 위한 JumpBox 및 Code Repository(Git Enterprise), Container Registry(ACR), Ingress(Azure AGW), Storage(Azure Files) 등 설계/구축',
-            },
+            { content: '개발 환경을 위한 JumpBox 및 Code Repository(Git Enterprise), Container Registry(ACR), Ingress(Azure AGW), Storage(Azure Files) 등 설계/구축', },
             { content: 'MSA를 위한 Azure DevOps CI/CD Pipeline 표준 설계/구축' },
-            {
-              content: 'Public Azure DevOps Service를 Enterprise환경에 맞게 Private 서비스로 구축 ',
-            },
-            {
-              content:
-                'CI/CD Automation 설계/구축 (CI Pipeline Sonarqube, Sparrow 연동 및 테스트 자동화)',
-            },
+            { content: 'Public Azure DevOps Service를 Enterprise환경에 맞게 Private 서비스로 구축 ', },
+            { content: 'CI/CD Automation 설계/구축 (CI Pipeline Sonarqube, Sparrow 연동 및 테스트 자동화)', },
           ],
         },
       ],
@@ -109,9 +138,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '크게 Assessment, Design, Implement의 Proces로 구성된 표준 설계' },
-            {
-              content: 'Assessment는 Migrate Tool과 AS-IS 시스템 분석 Interview 및 Check List 작성',
-            },
+            { content: 'Assessment는 Migrate Tool과 AS-IS 시스템 분석 Interview 및 Check List 작성', },
             { content: 'Migration 전략(6R)에 따른 표준 Architecture 설계' },
           ],
         },
@@ -341,7 +368,7 @@ const project: IProject.Payload = {
             },
             {
               content:
-                '대용량 작업을 Realtime으로 원활히 처리하기 위해 프로세스 병령화(Process Parallelization)으로 구현',
+                '대용량 작업을 Realtime으로 원활히 처리하기 위해 프로세스 병렬화(Process Parallelization)로 구현',
             },
           ],
         },

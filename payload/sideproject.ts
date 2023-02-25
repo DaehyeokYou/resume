@@ -24,9 +24,15 @@ const sideproject: ISideproject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '내 위치 값을 LocationManager와 LocationListener를 이용하여 구현', },
-            { content: '내 위치 값이 변경되는 이벤트(onLocationChanged) 발생 시, 오프라인 매장과의 거리 비교', },
+            { content: '내 위치 값이 변경되는 이벤트(onLocationChanged) 발생 시, 오프라인 매장과의 거리 비교' },
           ],
-        }
+        },
+        {
+          content:
+            'https://github.com/DaehyeokYou/LDCC_HybridAndroidApp',
+          weight: 'MEDIUM',
+          href: 'https://github.com/DaehyeokYou/LDCC_HybridAndroidApp',
+        },
       ],
     },
     {
@@ -44,6 +50,12 @@ const sideproject: ISideproject.Payload = {
           content:
             'NFC를 활용하여 전자 명함을 서로 교환하는 기능 개발',
           weight: 'MEDIUM',
+        },
+        {
+          content:
+            'https://github.com/DaehyeokYou/NFC_NameCard_AndroidApp',
+          weight: 'MEDIUM',
+          href: 'https://github.com/DaehyeokYou/NFC_NameCard_AndroidApp',
         },
       ],
     },

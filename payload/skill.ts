@@ -17,10 +17,21 @@ const DevAA: ISkill.Skill = {
     },
     {
       title: 'Kafka',
+      level: 2,
     },
     {
       title: 'Redis',
+      level: 2,
     },
+    {
+      title: 'Linux',
+      level: 2,
+    },
+    {
+      title: 'MSSQL',
+      level: 2,
+    },
+    
   ],
 };
 
@@ -80,16 +91,16 @@ const etc: ISkill.Skill = {
   category: 'Etc',
   items: [
     {
-      title: 'Linux',
+      title: 'Presentaion Skill',
     },
     {
-      title: 'VS Code',
+      title: 'Knowledge Sharing Skill',
     },
     {
-      title: 'Jira',
+      title: 'Communication Skill',
     },
     {
-      title: 'Confluence',
+      title: 'Collaboration Skill',
     },
   ],
 };
@@ -97,7 +108,7 @@ const etc: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [DevAA, SRE, SATA, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip: '1: 기본 업무 수행 가능, 추가적인 학습 및 도움이 필요할 수 있음\n2: 능숙하게 업무 수행이 가능, 특별한 도움이 필요 없음\n3: 다른 사람을 리드하고 교육할 수 있는 수준',
 };
 
 export default skill;
