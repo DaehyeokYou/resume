@@ -31,7 +31,6 @@ const DevAA: ISkill.Skill = {
       title: 'MSSQL',
       level: 2,
     },
-    
   ],
 };
 
@@ -108,7 +107,8 @@ const etc: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [DevAA, SRE, SATA, etc],
-  tooltip: '1: 기본 업무 수행 가능, 추가적인 학습 및 도움이 필요할 수 있음\n2: 능숙하게 업무 수행이 가능, 특별한 도움이 필요 없음\n3: 다른 사람을 리드하고 교육할 수 있는 수준',
+  tooltip:
+    '1: 기본 업무 수행 가능, 추가적인 학습 및 도움이 필요할 수 있음\n2: 능숙하게 업무 수행이 가능, 특별한 도움이 필요 없음\n3: 다른 사람을 리드하고 교육할 수 있는 수준',
 };
 
 export default skill;
