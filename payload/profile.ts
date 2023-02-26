@@ -32,7 +32,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '반갑습니다! IT Generalist 유대혁입니다. 잘 부탁드립니다!',
+    title: '반갑습니다! 8년차 IT인 유대혁 입니다. 잘 부탁드립니다.',
     icon: faBell,
   },
 };
