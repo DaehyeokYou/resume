@@ -5,7 +5,7 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    '저라는 사람을 "Generalist"와 "+@Devleper"란 Keyword로 소개를 하려고 합니다.',
+    '저라는 사람을 <b>"Generalist"</b>와 "+@Devleper"란 Keyword로 소개를 하려고 합니다.',
     'Generalist',
     'Enterprise환경에서 Production End-to-End를 모두 경험했습니다.',
     '기획-설계-개발-테스트-배포-운영/유지보수 단계까지의 모든 과정을 경험했습니다.',
