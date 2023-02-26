@@ -110,7 +110,6 @@ const project: IProject.Payload = {
             },
             { content: '3rd Party 보안 장비와 NVA장비(F5 WAF, Fortigate Firewall) Integration ' },
             { content: '고가용성, 안정성, 보안, 성능이 우수한 DMZ Hub 설계' },
-            { content: '' },
           ],
         },
         {
