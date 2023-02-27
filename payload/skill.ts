@@ -13,10 +13,14 @@ const DevAA: ISkill.Skill = {
     },
     {
       title: 'Spring',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Kafka',
+      level: 2,
+    },
+    {
+      title: 'JPA',
       level: 2,
     },
     {
@@ -31,6 +35,18 @@ const DevAA: ISkill.Skill = {
       title: 'MSSQL',
       level: 2,
     },
+    {
+      title: 'React',
+      level: 1,
+    },
+    {
+      title: 'Node.js',
+      level: 1,
+    },
+    {
+      title: 'Python',
+      level: 1,
+    },
   ],
 };
 
@@ -43,6 +59,10 @@ const SRE: ISkill.Skill = {
     },
     {
       title: 'Logging/Monitoring',
+      level: 2,
+    },
+    {
+      title: 'IaC',
       level: 2,
     },
     {
@@ -81,7 +101,7 @@ const SATA: ISkill.Skill = {
     },
     {
       title: 'AWS',
-      level: 1,
+      level: 2,
     },
   ],
 };
