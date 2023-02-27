@@ -14,11 +14,10 @@ function Component({ payload }: PropsWithChildren<{ payload: IFooter.Payload }>)
     <Row>
       <Col style={Style.footerCover}>
         <div style={Style.footer} className="text-center mt-2">
-          <EmptyRowCol>
+          {/*<EmptyRowCol>
             <small>
-              v.{`${payload.version} / `}
-              {/* Github 주소는 origin repository 의 주소를 넣는다. */}
-              <HrefTargetBlank url="https://github.com/uyu423/resume-nextjs" text="Github" />
+              v.{`${payload.version} / `} 
+              <HrefTargetBlank url="https://github.com/DaehyeokYou/resume" text="Github" />
               {' / '}
               Thanks for <HrefTargetBlank url="https://blog.outsider.ne.kr/1234" text="Outsider" />
             </small>
@@ -33,7 +32,7 @@ function Component({ payload }: PropsWithChildren<{ payload: IFooter.Payload }>)
               {payload.bootstrapVersion}
             </small>
           </EmptyRowCol>
-          <br />
+  <br /> */}
         </div>
       </Col>
     </Row>
