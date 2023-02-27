@@ -40,7 +40,8 @@ function Yosume() {
         <Certificate.Component payload={Payload.certificate} />
         <Education.Component payload={Payload.education} />
         <Etc.Component payload={Payload.etc} />
-        <Footer.Component payload={Payload.footer} />
+        {/* <Footer.Component payload={Payload.footer} /> */}
+        <Footer.Component />
       </Container>
     </>
   );
