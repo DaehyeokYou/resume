@@ -58,7 +58,11 @@ const SRE: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Logging/Monitoring',
+      title: 'Logging',
+      level: 2,
+    },
+    {
+      title: 'Monitoring',
       level: 2,
     },
     {
@@ -84,7 +88,11 @@ const SATA: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Migration/Modernization',
+      title: 'Migration',
+      level: 3,
+    },
+    {
+      title: 'Modernization',
       level: 3,
     },
     {
