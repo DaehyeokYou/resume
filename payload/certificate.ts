@@ -5,13 +5,16 @@ const certificate: ICertificate.Payload = {
 
   list: [
     {
+      content: 'AWS Certified Solution Architect - Professional 2024.7.30',
+    },
+    {
       content: 'Azure Administrator Associate 2021.3.17',
     },
     {
       content: 'Azure Fundamental 2021.1.8',
     },
     {
-      content: 'AWS Certified Solution Architect 2019.10.04',
+      content: 'AWS Certified Solution Architect - Associate 2019.10.04',
     },
     {
       content: 'Toeic Speaking Lv6 2019.03.14',
