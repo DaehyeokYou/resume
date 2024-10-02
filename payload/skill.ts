@@ -54,7 +54,7 @@ const SRE: ISkill.Skill = {
   category: 'SRE',
   items: [
     {
-      title: 'DevOps',
+      title: 'DevOps(CI/CD)',
       level: 3,
     },
     {
@@ -67,11 +67,7 @@ const SRE: ISkill.Skill = {
     },
     {
       title: 'IaC',
-      level: 2,
-    },
-    {
-      title: 'IaC',
-      level: 2,
+      level: 1,
     },
   ],
 };
@@ -97,11 +93,7 @@ const SATA: ISkill.Skill = {
     },
     {
       title: 'Kubernetes',
-      level: 2,
-    },
-    {
-      title: 'Docker',
-      level: 2,
+      level: 3,
     },
     {
       title: 'MSA',

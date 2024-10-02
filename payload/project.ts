@@ -4,86 +4,113 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'SKR Wave1',
-      startedAt: '2022-07',
-      endedAt: '2023-03',
+      title: 'Cloud ZCP 시스템 3.0 개발 (Monitoring Management Service)',
+      startedAt: '2024-07',
       where:
-        'SK(주), SK렌터카 차세대 시스템 전환 프로젝트 여정 중 첫번째 전환이 단기 렌탈 업무 영역이고 Wave1이라 부름',
+        'SK(주), SK C&C Cloud ZCP 3.0 개발 (Monitoring Management Service / MMS) : JAVA, Spring6',
       descriptions: [
         {
-          content: '공통 Module 및 Backend 개발',
+          content: 'ZCP MMS(Monitoring Management Service)',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'OnPrem Monolithic System을 Split하고 공통 기능을 선별' },
-            { content: '공통 기능을 모아서 Restful API 개발' },
-          ],
-        },
-        {
-          content: 'Kafka CDC 구현',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'OnPrem DB와 차세대 Cloud DB 동기화 구현' },
-            { content: '차세대 MSA CQRS Pattern을 위한 Read Only DB 동기화 구현' },
-          ],
-        },
-        {
-          content: 'Wave1 참고 사이트',
-          weight: 'MEDIUM',
-          descriptions: [
+            { content: 'Cortex API 활용하여 비즈니스에 필요한 API 개발' },
             {
-              content: 'https://homepage.skcarrental.com/',
-              href: 'https://homepage.skcarrental.com/',
+              content:
+                'Spring 6 환경에서의 Global Exception Handling 표준을 설계하여 개발 및 다른 서비스 담당자들에게 가이드',
+            },
+            {
+              content:
+                'Spring WebFlux를 활용한 Reactive Programming 구현, 비동기/Non-Blocking 프로세스 구성',
             },
           ],
         },
       ],
     },
     {
-      title: 'SK렌터카 SmartCare, EV Link',
-      startedAt: '2021-06',
-      endedAt: '2022-07',
+      title: 'SK 디스커버리 AI 활용 시스템 설계/구축',
+      startedAt: '2024-02',
+      endedAt: '2024-07',
       where:
-        'SK(주), SmarCare: 전기차 장기 렌트 고객 대상 차량 관리 편의 제공 서비스(계약 관리, 정비 관리 등), EV Link: 전기차 충전 카드 등록/관리 및 충전소 정보 등을 제공하는 전기차 고객 서비스이고, 기존 OnPrem의 거대한 Monolithic System에서 하나의 서비스를 Cloud Migration',
+        'SK(주), SK 디스커버리 계열에서 필요한 AI 활용 시스템(SHE 시스템, HR Bot, NewsRoom 등) 설계/구축',
       descriptions: [
         {
-          content: 'Backend API 개발',
+          content: '(프로젝트 관련기사) SK Chemical SHE System',
+          href: 'https://m.boannews.com/html/detail.html?tab_type=1&idx=129965',
+        },
+        {
+          content: 'AI RAG 패턴 아키텍처 설계 및 Infra 구축',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '기존의 SSR에서 SPA로 렌더링 방식을 변경하면서 Rest API Backend 개발' },
-            { content: '기존 MyBatis에서 ORM 도입' },
-            { content: 'Spring Batch활용하여 Batch 관리' },
+            { content: 'Azure Open AI 구축 및 활용 시스템과의 연동 구축' },
+            { content: 'Azure AI Studio 활용 Infra 설계/구축' },
+            { content: 'AWS Lambda 성능 개선 수행 (Python)' },
           ],
         },
         {
-          content: 'Redis를 활용한 Session Clustering 구현',
+          content: 'Azure Cloud Infra 설계/구축',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Azure Cloud 환경의 Redis를 활용하여 Session 관리 기능 개발 ' },
+            { content: 'Azure Landing Zone 설계/구축' },
+            { content: 'OnPrem, AWS와 같은 다른 환경의 네트워크와 연동 구성(VPN) / Hub&Spoke' },
           ],
         },
+      ],
+    },
+    {
+      title: 'AIA 생명 Vitality 시스템 Cloud to Cloud (AWS -> Azure) Migration',
+      startedAt: '2023-07',
+      endedAt: '2024-01',
+      where:
+        'SK(주), AIA 생명 Vitality 시스템을 Main CSP인 Azure로 변경하기 위해 AWS -> Azure로 Migration을 수행함. (EKS -> AKS)',
+      descriptions: [
         {
-          content: 'SmartCare 참고 Store ',
+          content: 'Azure Cloud Infra 설계/구축',
           weight: 'MEDIUM',
           descriptions: [
             {
-              content: '안드로이드 Play Store SmartCare',
-              href:
-                'https://play.google.com/store/apps/details?id=com.smartcare.android&hl=ko&gl=US&pli=1',
+              content:
+                '기존 AIA Azure Landing Zone의 규칙과 보안 규정에 맞게 Spoke Network 및 AKS Cluster 구성',
+            },
+            { content: 'Firewall, WAF 등과 같은 기존 장비와의 Integration 수행' },
+            { content: '통신 전구간 암호화, 외부/내부 통신 분리 등 보안 네트워크 구성' },
+          ],
+        },
+        {
+          content: 'k8s platform 설계 및 DevOps 환경 구축',
+          weight: 'MEDIUM',
+          descriptions: [
+            {
+              content:
+                'AKS Ingress-Nginx Controller 구성 및 Secret(Azure KeyValut), PV/PVC(Azure Files) 등 k8s 설계/구축',
+            },
+            { content: 'MSA/Container 환경의 DevOps CI/CD Pipeline 구축 (Gitlab, Jenkins, Nexus)' },
+            { content: '성능 향상을 위한 CDN 구성 및 캐싱 전략 설계' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'SKR CCoE',
+      startedAt: '2022-07',
+      endedAt: '2023-07',
+      where: 'SK(주), SK렌터카 차세대 시스템 전환 프로젝트에서 CCoE 역할을 수행',
+      descriptions: [
+        {
+          content: 'Cloud 환경 고도화',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '통합 AKS Cluster 환경 구성(Private AKS) ' },
+            {
+              content:
+                '개발 환경을 위한 JumpBox 및 Code Repository(Git Enterprise), Container Registry(ACR), Ingress(Azure AGW), Storage(Azure Files) 등 설계/구축',
+            },
+            { content: 'MSA를 위한 Azure DevOps CI/CD Pipeline 표준 설계/구축' },
+            {
+              content: 'Public Azure DevOps Service를 Enterprise환경에 맞게 Private 서비스로 구축 ',
             },
             {
-              content: '아이폰 App Store SmartCare',
-              href:
-                'https://apps.apple.com/kr/app/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BC%80%EC%96%B4-sk%EB%A0%8C%ED%84%B0%EC%B9%B4-%EC%B0%A8%EB%9F%89%EA%B4%80%EB%A6%AC-%EC%84%9C%EB%B9%84%EC%8A%A4/id1515841739',
-            },
-          ],
-        },
-        {
-          content: 'EV Link 참고 기사',
-          weight: 'MEDIUM',
-          descriptions: [
-            {
-              content: '전자신문 etnews 기사',
-              href: 'https://www.etnews.com/20220915000021',
+              content:
+                'CI/CD Automation 설계/구축 (Containerization, k8s deploy, hpa, configmap, secret)',
             },
           ],
         },
@@ -112,41 +139,20 @@ const project: IProject.Payload = {
             { content: '고가용성, 안정성, 보안, 성능이 우수한 DMZ Hub 설계' },
           ],
         },
-        {
-          content: '개발 환경 및 Micro Service Architecture 환경 구축',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: '통합 AKS Cluster 환경 구성(Private AKS) ' },
-            {
-              content:
-                '개발 환경을 위한 JumpBox 및 Code Repository(Git Enterprise), Container Registry(ACR), Ingress(Azure AGW), Storage(Azure Files) 등 설계/구축',
-            },
-            { content: 'MSA를 위한 Azure DevOps CI/CD Pipeline 표준 설계/구축' },
-            {
-              content: 'Public Azure DevOps Service를 Enterprise환경에 맞게 Private 서비스로 구축 ',
-            },
-            {
-              content:
-                'CI/CD Automation 설계/구축 (CI Pipeline Sonarqube, Sparrow 연동 및 테스트 자동화)',
-            },
-          ],
-        },
       ],
     },
     {
       title: 'SK네트웍스 계열 Cloud Migration',
       startedAt: '2021-01',
       endedAt: '2021-12',
-      where: 'SK(주), SK네트웍스 계열(네트웍스, 워커힐 등)의 On-Premise System을 Cloud Migration.',
+      where:
+        'SK(주), SK네트웍스 계열(네트웍스, 워커힐 등)의 On-Premise System을 Cloud Migration/Modernization.',
       descriptions: [
         {
           content: '표준 Azure Cloud Migration Process 설계',
           weight: 'MEDIUM',
           descriptions: [
             { content: '크게 Assessment, Design, Implement의 Proces로 구성된 표준 설계' },
-            {
-              content: 'Assessment는 Migrate Tool과 AS-IS 시스템 분석 Interview 및 Check List 작성',
-            },
             { content: 'Migration 전략(6R)에 따른 표준 Architecture 설계' },
           ],
         },
@@ -154,8 +160,8 @@ const project: IProject.Payload = {
           content: 'Azure Cloud Migration',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '30여개 이상의 시스템을 Cloud Migration 수행' },
-            { content: 'Containerizing하여 확장성, 민첩성을 확보하여 Cloud Native하게 Migration' },
+            { content: '20여개 이상의 시스템을 Cloud Migration 수행' },
+            { content: 'Containerization/Cloud Native하게 Migration' },
           ],
         },
       ],
@@ -169,7 +175,7 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content: '(프로젝트 관련기사) SK Multiverse',
-          href: 'https://blog.skcc.com/4082',
+          href: 'https://www.mk.co.kr/news/special-edition/9830259',
         },
         {
           content:
@@ -181,16 +187,6 @@ const project: IProject.Payload = {
               content: 'Github (EFK-SSO-KubernetesLogs)',
               href: 'https://github.com/DaehyeokYou/EFK-SSO-KubernetesLogs',
             },
-          ],
-        },
-        {
-          content:
-            '3대 CSP의 K8s환경(AWS-EKS, Azure-AKS, GCP-GKE)에서의 표준 API Gateway 설계/구축',
-          weight: 'MEDIUM',
-          descriptions: [
-            { content: 'Kong API Gateway 구축' },
-            { content: '클라이언트와 백엔드 서비스 간의 통신 중개 구현' },
-            { content: '인증, 인가, 로깅, 모니터링 등에 대한 표준 수립 및 구현' },
           ],
         },
       ],
